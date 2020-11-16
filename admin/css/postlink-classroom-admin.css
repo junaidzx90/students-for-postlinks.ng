@@ -1,0 +1,238 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/* Custom css */
+/* Tabs */
+.rows {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.col-3 {
+    min-width: 30%;
+    height: fit-content;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0px 5px;
+    background: #fff;
+    border-radius: 5px;
+}
+.category_table{
+    margin-top: 10px;
+}
+table.category_table td{
+    padding: 5px;
+}
+table.category_table {
+    width: 100%;
+}
+td.sl {
+    width: 10px;
+}
+button.cat_del {
+    float: right;
+    background: chocolate;
+    color: #1b1b1b;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: unset;
+}
+span.devjoos_notify {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    color: #828282;
+    font-size: 16px;
+}
+
+.tabs {
+    width: 100%;
+    background-color: transparent;
+}
+
+ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+ul#tabs-nav li {
+    /* padding: 14px 6px; */
+    font-size: 18px;
+    text-transform: initial;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#tabs-nav li a {
+    text-decoration: none;
+    color: rgb(4 115 170);
+    padding: 10px 26px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+ul#tabs-nav li:hover a,
+ul#tabs-nav li.active a,
+ul#tabs-nav li.focus a {
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-bottom: 1px solid transparent;
+    border-radius: 5px 5px 0px 0px;
+    opacity: 1;
+}
+
+.tab-content {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Inputs */
+input,select {
+    height: 36px !important;
+    font-size: 18px !important;
+    margin: 0px;
+    min-width: 100%;
+}
+
+.lab {
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+button.save-btn,
+button.add-btn {
+    margin-top: 18px;
+    padding: 6px 20px;
+    background: #049dcf;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+button.save-btn:hover,
+button.add-btn:hover {
+    opacity: 1;
+}
+
+.warning,
+.warning2 {
+    display: none;
+}
+
+/* Project manage page */
+
+table {
+    min-width: 50%;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #F4F4F7;
+}
+
+table thead {
+    background: #504b5f;
+    color: #cacaca;
+}
+
+table,
+th,
+td {
+    text-align: left;
+    border: 1px solid #d8d8d8;
+    border-collapse: collapse;
+    padding: 5px 13px;
+    text-transform: uppercase;
+}
+
+td.warn {
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+    color: red;
+}
+
+input.search_project {
+    display: inline-block;
+    margin: 10px 0px;
+    background: #ddd;
+    min-width: 20%;
+}
+
+.head {
+    text-transform: capitalize;
+}
+
+.action {
+    text-align: right;
+}
+button.download_btn {
+    background: #7bb2ce;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+button.download_btn:hover{
+    opacity: 1;
+}
+button.btn.del_btn {
+    background-color: #ddd;
+    outline: none;
+    border: 0px;
+    padding: 3px 8px;
+    margin: 0px 3px;
+    border-radius: 2px;
+    opacity: .7;
+    background-color: chocolate;
+    color: #1b1b1b;
+    font-weight: 600;
+}
+
+button.btn.del_btn:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+input.edit_inp {
+    background: #e2e2e2;
+    width: 86px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.plugin_desc {
+    width: 80%;
+}

@@ -1,0 +1,195 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #edeff2;
+}
+
+hr {
+    width: 100%;
+}
+
+#error-page {
+    min-width: 100%;
+    background: transparent;
+    box-shadow: none;
+}
+
+.site-content {
+    padding: 30px !important;
+}
+
+#main_wrapper,
+#alimentor_widgets {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.psidebar {
+    width: 30%;
+}
+
+aside {
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+}
+
+.site-content.page-header-disable {
+    margin-top: 66px !important;
+}
+
+#post_contents {
+    max-width: 70%;
+    min-width: 70%;
+    display: inline-block;
+    padding-right: 10px;
+    margin-right: 12px;
+}
+
+.publish-content {
+    height: fit-content;
+    background: #fff;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: -webkit-left;
+}
+
+#post_contents .published_post {
+    margin-right: 8px;
+    font-size: 24px;
+    float: right;
+    color: #00c3d1;
+    display: inline-block;
+    padding: 12px;
+}
+
+#post_contents h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#post_contents img {
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 15px;
+}
+
+#post_contents .student_name {
+    float: left;
+    font-size: 18px;
+    color: #00c3d1;
+}
+
+#post_contents .create_date {
+    margin-left: 10px;
+}
+
+#post_contents p {
+    padding-bottom: 10px;
+    height: fit-content;
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+}
+
+#post_contents .has-medium-font-size {
+    margin: 5px 0px !important;
+    padding: 0px !important;
+    height: unset !important;
+    font-size: 18px;
+}
+
+#post_contents .seemore {
+    padding: 5px 0px;
+    border-radius: 3px;
+    color: #00c3d1;
+    opacity: 0.7;
+    display: block;
+    float: right;
+}
+
+#post_contents .seemore:hover {
+    opacity: 1 !important;
+}
+
+button.pst-loadmore {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px !important;
+    cursor: pointer;
+    opacity: 0.8;
+    background: #00c3d1;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: none;
+    color: #fff !important;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.warn,
+.warn2 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #edeff2;
+    background: darksalmon;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 3px black;
+}
+
+.warn a {
+    color: #25E473;
+}
+
+@media screen and (max-width: 767px) {
+    #main_wrapper {
+        display: block;
+    }
+
+    .loaddata {
+        width: 100%;
+    }
+
+    #post_contents {
+        max-width: 100%;
+        min-width: 100%;
+        padding-right: 0px;
+    }
+
+    .psidebar {
+        width: 100%;
+    }
+
+    #secondary.widget-area {
+        margin-top: 0px;
+    }
+}
